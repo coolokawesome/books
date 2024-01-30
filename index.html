@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #384d52;
+    }
+</style>
+
+<body>
+    <div style="color: white; justify-content: center; align-items: center; flex: 1; display: flex;">
+         
+        <div style="padding: 10px">
+            Approaching Youth Studies - Tilleczek, Kate C,
+        </div>
+        <a id="button" target="_blank" href="./Approaching youth studies _ bei - Tilleczek, Kate C. (Kate Clare).pdf"><button style="background-color: #333; color: white; border: 0; padding: 10px; border-radius: 8px; cursor: pointer">Download</button></a>
+    </div>
+    
+        <div style="width: 100%; display: flex; justify-content: center; padding-top: 100px">
+           <div>
+            <img id="img" src="./ducki.png" style="flex: 1; display: flex; justify-content: center; width: 600px !important; height: 600px; border-radius: 10px; visibility: hidden;">
+           </div>
+        </div>
+        <script async>
+            const btn = document.getElementById("button")
+            btn.addEventListener('click', () => {
+                const guy = document.getElementById('img');
+                guy.style.visibility = 'visible';
+
+            });
+        </script>
+</body>
+</html>
